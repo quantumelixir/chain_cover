@@ -1,0 +1,17 @@
+chain_cover - Finds the minimum chain cover of a graph
+
+I. Minimum Chain Cover:
+        A. Finds the minimum chain cover of a given graph using exact methods.
+        B. Parameter based random graph generation
+        C. Finding and listing all reachable simple chains from a given vertex
+        D. Cycle Detection
+        E. Non recursive k-subset generation
+        F. List all k vertex sets that are also chain covers
+G. Specify graph as a text file for input
+
+II. Running the program
+        A. USAGE: Specify <rows> <columns> <vertex density> <edge connectivity>. All are mandatory.
+
+III. General Naming Conventions:
+        A. Only structures have capital first letter names
+        B. All other identifiers have lowercase names with underscores for separators.
