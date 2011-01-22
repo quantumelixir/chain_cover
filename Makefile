@@ -1,2 +1,9 @@
-chaincover : main.c random_matrix.c chain.c graph.c vertex.c solve.c read_input.c
-	gcc -Wall main.c random_matrix.c chain.c graph.c vertex.c solve.c read_input.c -o chaincover
+CC=cc
+CFLAGS=-Wall -Werror
+
+OBJECTS=random_matrix.o chain.o graph.o vertex.o solve.o read_input.o
+
+chaincover: main.c $(OBJECTS)
+	$(CC) $(CFLAGS) $^ -o $@
+
+.o: .c
