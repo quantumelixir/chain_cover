@@ -15,3 +15,8 @@ II. Running the program
 III. General Naming Conventions:
         A. Only structures have capital first letter names
         B. All other identifiers have lowercase names with underscores for separators.
+
+NOTE
+----
+* Currently, this is a rather useless project that is hiding some useful code.
+* I will try to salvage the graph-manipulating code and hopefully turn it into a library.
