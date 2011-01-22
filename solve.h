@@ -2,7 +2,7 @@
 #define SOLVE_H
 
 #include <stdio.h>
-#include <malloc.h>
+#include <stdlib.h>
 #include "graph.h"
 #include "chain.h"
 
