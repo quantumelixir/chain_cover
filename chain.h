@@ -1,6 +1,7 @@
 #ifndef CHAIN_H
 #define CHAIN_H
 
+#include <stdio.h>
 #include "graph.h"
 #include "vertex.h"
 

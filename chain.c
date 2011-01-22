@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "chain.h"
 
 int find_chains_from(Graph* graph, int start)
