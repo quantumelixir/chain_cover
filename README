@@ -4,7 +4,7 @@ I. Minimum Chain Cover:
         A. Finds the minimum chain cover of a given graph using exact methods.
         B. Parameter based random graph generation
         C. Finding and listing all reachable simple chains from a given vertex
-        D. Cycle Detection
+        D. Cycle Detection & Vertex Coloring
         E. Non recursive k-subset generation
         F. List all k vertex sets that are also chain covers
 G. Specify graph as a text file for input
@@ -15,8 +15,3 @@ II. Running the program
 III. General Naming Conventions:
         A. Only structures have capital first letter names
         B. All other identifiers have lowercase names with underscores for separators.
-
-NOTE
-----
-* Currently, this is a rather useless project that is hiding some useful code.
-* I will try to salvage the graph-manipulating code and hopefully turn it into a library.
